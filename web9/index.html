@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*Element Selector*/
+        div{
+            background-color: red;
+        }
+        /*Class Selector*/
+        .red{
+            background-color: blueviolet;
+        }
+        /*ID Selector*/
+        #green{
+            background-color: green;
+        }
+        /*Child Selector*/
+        div>p{
+            color: aqua;
+            background-color: brown;
+        }
+                /*Decendent Selector*/
+                div p{
+            color: aqua;
+            background-color: brown;
+        }
+        /*Universal Selector*/
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /*Pseudo Selector*/
+        a:visited{
+color:yellow
+        }
+        a:link{
+            color: green;
+        }
+        a:active{
+            background-color: red;
+        }
+        a:hover{
+            background-color: yellowgreen;
+        }
+        p:first-child{
+            background-color: rgb(116, 13, 13);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="one">
+        <p>I am first</p>
+        <p>I am second</p>
+    </div>
+    <div class="red">
+        I am div
+        <article>
+            <p>I am a para inside div</p>
+        </article>
+        <p>I am a para inside div</p>
+    </div>
+    <div id="green">I am another div</div>
+    <a href="https://www.google.com">google</a>
+    <a href="https://www.facebook.com">facebook</a>
+
+</body>
+</html>
